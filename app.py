@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
+app.static_folder = 'templates/static'
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 ACTIVELOOP_TOKEN = os.getenv('ACTIVELOOP_TOKEN')
