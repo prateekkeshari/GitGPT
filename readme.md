@@ -16,6 +16,10 @@ git clone 'link to this repository'
 >>>>>>> 35ff379 (updated readme)
 ```
 
+```bash
+pip install -r requirements.txt
+```
+
 Then, navigate to the project directory and run the app with Python:
 
 ```bash
