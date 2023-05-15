@@ -9,13 +9,13 @@ Please note that since we are using GPT-4, the response times will be higher and
 To use the chatbot, first clone the repository to your local machine:
 
 ```bash
-git clone 'link to this repository'
+git clone https://github.com/prateekkeshari/GitGPT.git
 ```
 
 Then, navigate to the project directory and run the app with Python:
 
 ```bash
-cd 'directory'
+cd GitGPT
 python app.py
 ```
 
