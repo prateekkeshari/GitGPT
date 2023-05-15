@@ -25,6 +25,15 @@ cd GitGPT
 python app.py
 ```
 
+You can also 
+[
+    ![Open in Remote - Containers](
+        https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode
+    )
+](
+    https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/theodoremeynard/GitGPT
+)
+
 The chatbot interface will appear, allowing you to ask questions about the Twitter algorithm.
 
 Enter your question in the input field and click the "Send" button or press the "Enter" key to submit your query. The chatbot will display a "Thinking..." message while it processes your request, and then it will display the answer to your question.
