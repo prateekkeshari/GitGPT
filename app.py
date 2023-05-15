@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 import os
-import getpass
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import DeepLake
 from langchain.chat_models import ChatOpenAI
@@ -16,7 +15,7 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 ACTIVELOOP_TOKEN = os.getenv('ACTIVELOOP_TOKEN')
 
 embeddings = OpenAIEmbeddings(disallowed_special=())
-db = DeepLake(dataset_path="hub://davitbun/twitter-algorithm", read_only=True, embedding_function=embeddings)
+db = DeepLake(dataset_path="hub://theodoremeynard/ddataflow", read_only=True, embedding_function=embeddings)
 retriever = db.as_retriever()
 retriever.search_kwargs['distance_metric'] = 'cos'
 retriever.search_kwargs['fetch_k'] = 100
@@ -50,4 +49,4 @@ def ask_question():
     return jsonify({"question": question, "answer": result['answer']})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,port=5005)
