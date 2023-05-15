@@ -16,6 +16,8 @@ git clone https://github.com/prateekkeshari/GitGPT.git
 pip install -r requirements.txt
 ```
 
+Then, rename the .env-example to .env and add your openai and active loop keys. [Active Loop] (https://app.activeloop.ai/login)
+
 Then, navigate to the project directory and run the app with Python:
 
 ```bash
