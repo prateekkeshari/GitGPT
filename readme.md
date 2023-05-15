@@ -1,6 +1,6 @@
 # Twitter Algorithm Chatbot
 
-This is a simple chatbot that can answer questions about the [Twitter algorithm](https://github.com/twitter/the-algorithm). It is built using HTML, CSS, and JavaScript.
+This is a simple chatbot that can answer questions about the [Twitter algorithm](https://github.com/twitter/the-algorithm). It is built using Python, HTML, CSS, and JavaScript.
 
 Please note that since we are using GPT-4, the response times will be higher and every query will cost more than GPT-3.5.
 
