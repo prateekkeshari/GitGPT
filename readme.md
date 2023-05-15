@@ -10,6 +10,7 @@ To use the chatbot, first clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/prateekkeshari/GitGPT.git
+```
 
 ```bash
 pip install -r requirements.txt
