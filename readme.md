@@ -25,7 +25,8 @@ cd GitGPT
 python app.py
 ```
 
-You can also 
+You can also directly use a devcontainer in vscode by clicking on the icon below
+
 [
     ![Open in Remote - Containers](
         https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode
@@ -33,6 +34,11 @@ You can also
 ](
     https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/theodoremeynard/GitGPT
 )
+
+and then you just need to run
+```bash
+python app.py
+```
 
 The chatbot interface will appear, allowing you to ask questions about the Twitter algorithm.
 
